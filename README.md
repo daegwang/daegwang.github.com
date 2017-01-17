@@ -1,4 +1,6 @@
-flashnode.github.com
+Daegwang Jang
 ====================
 
-github pages
+jekyll + Github Pages.
+
+
