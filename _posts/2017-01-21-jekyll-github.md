@@ -12,6 +12,7 @@ share: true
 
 
 시작하기에 앞서 루비 버전을 확인하여 업데이트가 필요할 경우에 업데이트를 해주어야 합니다.
+
 ``` bash
 $-ruby v
 $sudo gem update —system
@@ -29,12 +30,14 @@ $jekyll new [깃헙 아이디].github.com
 
 
 폴더가 생성된 후 로컬에서 확인을 하기 위해서는 다음과 같이 해 주면 됩니다.
+
 ``` bash
 $jekyll serve —watch
 ```
 
 
 __(추가)__ bundler 관련 오류 발생 시에는 아래와 같이 bundler설치가 필요합니다.
+
 ``` bash
 $brew install ruby
 $gem install bundler
@@ -47,6 +50,7 @@ $bundle exec jekyll serve
 ## 2. github에 블로그 올리기
 
 먼저 작업중이던 폴더에서 init을 통해 git 저장소를 생성합니다.
+
 ``` bash
 $git init
 ```
