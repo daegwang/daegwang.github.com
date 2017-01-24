@@ -1,14 +1,14 @@
 ---
 layout: post
-title: "jekyll을 사용하여 Github에 블로그 만들기"
-description: "jekyll + Github Pages"
+title: "Build A Blog using Jekyll And Github Pages"
+description: "Github Repository에 Jekyll을 사용하여 블로그를 만드는 방법"
 date: 2017-01-19
 tags: [jekyll, github]
 comments: true
 share: true
 ---
 
-기술 관련 포스트를 작성하기 위한 블로그를 하나 만들기로 하고 방법들을 알아보던 중 jekyll + github pages를 사용하여 블로그를 만들 수 있다는 것을 알게 되어 블로그 생성 및 내용 정리를 위해 이 포스트를 작성하게 되었습니다.
+개발 관련 포스트를 작성하기 위한 블로그를 하나 만들기로 하고 방법들을 알아보던 중 jekyll + github pages를 사용하여 블로그를 만들 수 있다는 것을 알게 되어 블로그 생성 및 내용 정리를 위해 이 포스트를 작성하게 되었습니다.
 
 
 시작하기에 앞서 루비 버전을 확인하여 업데이트가 필요할 경우에 업데이트를 해주어야 합니다.
