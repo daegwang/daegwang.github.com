@@ -3,7 +3,7 @@ layout: post
 title: "Method Chaining Pattern for Javascript"
 description: "자바스크립트의 메소드 체이닝(Method Chaining) 패턴"
 date: 2017-01-23
-tags: [javscript, pattern]
+tags: [javascript, pattern]
 comments: true
 share: true
 ---
@@ -68,10 +68,10 @@ util.prototype.html = function(html){
 }
 ```
 
-위와 같이 각 메소드 내에 객체 인스턴스인 `this`를 리턴하도록 구현하면 메소드 체이닝 패턴을 구현할 수 있습니다. 체이닝을 사용 예시는 다음과 같습니다.
+위와 같이 각 메소드 내에 객체 인스턴스인 `this`를 리턴하도록 구현하면 메소드 체이닝 패턴을 구현할 수 있습니다. 사용 예시는 다음과 같습니다.
 
 ```js
 util.get('divId').html('text').visible(true);
 ```
 
-위와 같은 메소드 체이닝은 자바스크립트에서 자주 보실 수 있는 패턴입니다. 다른 언어에서도 사용이 가능하기는 하지만 언어 특성에 따라서 체이닝을 사용하였더니 코드 복잡도가 증가할 수도 있으니 잘 선택해서 사용하는 것이 중요합니다.
+위와 같은 메소드 체이닝은 자바스크립트에서 자주 보실 수 있는 패턴입니다. 다른 언어에서도 사용이 가능하기는 하지만 언어 특성에 따라서 체이닝을 사용하였을 경우 코드 복잡도가 증가할 수도 있으니 잘 선택해서 사용하는 것이 중요합니다.
