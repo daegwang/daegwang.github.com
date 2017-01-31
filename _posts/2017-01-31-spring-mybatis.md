@@ -2,7 +2,7 @@
 layout: post
 title: "Using Mybatis in Spring"
 description: "Mybatis 사용법, 스프링 JDBC, SQL"
-date: 2017-01-27
+date: 2017-01-31
 tags: [mybatis, jdbc, spring]
 comments: true
 share: true
