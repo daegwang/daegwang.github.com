@@ -66,7 +66,7 @@ mybatis를 사용하기 위해 스프링 설정파일에 sqlSessionFactory와 sq
 
 ### 3. DAO 생성
 
-mybatis매핑 파일을 작성하기에 앞어 매핑에 필요한 dao를 생성해 줍니다.
+mybatis매핑 파일을 작성하기에 앞서 매핑에 필요한 dao를 생성해 줍니다.
 
 ```java
 public interface IDao{
