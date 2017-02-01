@@ -20,9 +20,9 @@ __Software Engineer__ (Samsung SDS) _2013.09 - Present_
 ### __Technical Skills__
 
 - Web Application development with Java (Spring)
+- Front-end development with Javascript (jQuery, ExtJS)
 - Version Control with Git, Perforce, SVN
 - Database Management Systems (MySQL, Oracle)
 - Test Driven Development with jUnit
-- Build Automation, Continuous Integration (Jenkins)
 - Web Automation Test with Python (Selenium)
 
