@@ -122,3 +122,56 @@ request.getParameter("content"));
 }
 ```
 위와 같이 SqlSession을 @Autowired시킨 후 용도에 맞게 dao를 getMapper를 통해 호출하여 사용하시면 됩니다.
+
+## (추가)Dao구현
+
+### 1. namespace 설정
+```xml
+<mapper namespace="board">
+	<select id="list" resultType="~.BoardVo">
+	SELECT * FROM BOARD
+	</select>
+	...
+</mapper>
+```
+
+### 2. DAO 생성
+
+```java
+@Repository("boardDao")
+public class BoardDao implements IDao{
+
+	@Inject
+	private SqlSession sqlSession;
+	
+	private static final String namespace = "board.";
+	
+	@Override
+	public List<ContentDto> listDao() {
+		return sqlSession.selectList(namespace+"listDao");
+	}
+
+	@Override
+	public int writeDao(ContentDto vo) {
+		return sqlSession.insert(namespace+"writeDao", vo);
+	}
+```
+@Inject 대신 @Resource(name="sqlSession")을 사용하셔도 됩니다.
+
+### 3. DAO 사용하기
+
+```java
+@Resource(name="boardDao")
+BoardDao dao;
+
+@RequestMapping("/write")
+public String write(HttpServletRequest request, Model model) {
+	BoardVo vo = new BoardVo();
+	vo.setWriter(request.getParameter("writer"));
+	vo.setContent(request.getParameter("content"));
+	dao.writeDao(vo);
+	return "redirect:list";
+}
+
+```
+
