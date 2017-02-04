@@ -24,5 +24,5 @@ __Software Engineer__ (Samsung SDS) _2013.09 - Present_
 - Version Control with Git, Perforce, SVN
 - Database Management Systems (MySQL, Oracle)
 - Test Driven Development with jUnit
-- Web Automation Test with Python (Selenium)
+
 
