@@ -54,14 +54,15 @@ oracle을 사용하기 위해서는 추가적으로 아래와 같이 관련 depe
 mybatis를 사용하기 위해 스프링 설정파일에 sqlSessionFactory와 sqlSession과 관련된 설정도 추가해줍니다.
 
 ```xml
-<beans:bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
-	<beans:property name="dataSource" ref="dataSource"/>
-	<beans:property name="mapperLocations" value="classpath:mapper/*.xml"/>
-</beans:bean>
-
-<beans:bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate">
-	<beans:constructor-arg index="0" ref="sqlSessionFactory"/>	
-</beans:bean>
+<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+	<property name="dataSource" ref="dataSource" />
+	<property name="configLocation" value="classpath:/mybatis-config.xml"></property>
+	<property name="mapperLocations" value="classpath:mappers/**/*Mapper.xml"></property>
+</bean>
+ 
+<bean id="sqlSession" class="org.mybatis.spring.SqlSessionTemplate" destroy-method="clearCache">
+	<constructor-arg name="sqlSessionFactory" ref="sqlSessionFactory"></constructor-arg>
+</bean>
 ```
 
 ### 3. DAO 생성

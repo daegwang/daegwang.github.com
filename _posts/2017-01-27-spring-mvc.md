@@ -49,6 +49,24 @@ share: true
 </web-app>
 ```
 
+또한 인코딩을 위해 해당 부분을 추가해 줍니다.
+
+```xml
+<filter>
+  <filter-name>encoding</filter-name>
+  <filter-class>org.springframework.web.filter.CharacterEncodingFilter</filter-class>
+  <init-param>
+   <param-name>encoding</param-name>
+   <param-value>UTF-8</param-value>
+  </init-param>
+</filter>
+
+<filter-mapping>
+  <filter-name>encoding</filter-name>
+  <url-pattern>/*</url-pattern>
+</filter-mapping>
+```
+
 ##### appServlet/servlet-context.xml
 스프링 컨테이너 설정 파일입니다.  
 
@@ -76,9 +94,7 @@ share: true
 		<beans:property name="suffix" value=".jsp" />
 	</beans:bean>
 	
-	<context:component-scan base-package="com.jdg.example" />
-	
-	
+	<context:component-scan base-package="com.jdg.controller" />
 	
 </beans:beans>
 ```
