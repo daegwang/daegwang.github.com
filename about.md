@@ -14,7 +14,10 @@ Interested in Web performance improvement and Development productivity improveme
 - Front-end development with Javascript (jQuery, ExtJS)
 - Database Management Systems (Oracle, MySQL)
 - Version Control with Git, Perforce, SVN
-- Test Driven Development with jUnit
+
+<!--
+ - Test Driven Development with jUnit 
+-->
 
 ### __Work Experience__  
 __Software Engineer__ (Samsung SDS) _2013.09 - Present_
