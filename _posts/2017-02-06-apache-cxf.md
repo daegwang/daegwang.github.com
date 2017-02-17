@@ -12,15 +12,15 @@ share: true
 
 ## Maven Setting
 ##### pom.xml
-```xml
 
-<!-- CXF -->
+```xml
 <dependency>
 	<groupId>org.apache.cxf</groupId>
 	<artifactId>cxf-rt-frontend-jaxrs</artifactId>
 	<version>3.1.0</version>
 </dependency>
 ```
+
 CXF를 사용하기 위해 dependency를 추가하여 줍니다.
 
 ## Spring Context 수정
