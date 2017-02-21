@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Javascript Defer & Async"
-description: "자바스크립트의 Defer, Async"
+description: "자바스크립트의 Defer, Async 속성"
 date: 2017-02-22
 tags: [javascript]
 comments: true
@@ -12,7 +12,7 @@ share: true
 
 자바스크립트 파일을 로딩하는데 있어서 가장 기본적인 방법은 head에 자바스크립트를 선언하여 사용하는 방법입니다.
 
-```js
+```html
 <head>
 <script type="text/javascript" src="js/heavy.js"></script>
 </head>
@@ -22,7 +22,7 @@ share: true
 이를 피하기 위해 사용하는 방법 중 하나로 DOM아래에 스크립트를 위치시키는 방법이 있습니다. 
 
 
-```js
+```html
 <body>
 	//DOM Loading..
 </body>
@@ -35,7 +35,7 @@ share: true
 
 ## defer
 
-```js
+```html
 <script defer type="text/javascript" src="js/heavy.js"></script>
 ```
 
@@ -43,7 +43,7 @@ HTML파싱과 스크립트 로딩이 동시에 실행되며 이후 실행됩니�
 
 ## async
 
-```js
+```html
 <script defer type="text/javascript" src="js/heavy.js"></script>
 ```
 
