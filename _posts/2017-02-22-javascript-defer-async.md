@@ -53,7 +53,7 @@ HTML파싱이 중단됩니다.
 
 ## References
 - [async 속성][link1]
-- [defer 속성][link1]
+- [defer 속성][link2]
 
 [link1]: http://html5ref.clearboth.org/doku.php?id=html5:attribute:async_script
 [link2]: http://html5ref.clearboth.org/doku.php?id=html5:attribute:defer_script
