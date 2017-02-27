@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Diferrence between MVC, MVP and MVVM"
+title: "Diference between MVC, MVP and MVVM"
 description: "MVC, MVP, MVVM 패턴"
 date: 2017-02-25
 tags: [pattern]
