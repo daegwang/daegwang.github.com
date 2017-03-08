@@ -14,14 +14,7 @@ Interested in web performance improvement and productivity improvement tool deve
 - Front-end development with Javascript (jQuery, ExtJS)
 - Database Management Systems (Oracle, MySQL)
 - Version Control with Git, Perforce, SVN
-
-<!--
-Asynchronous Programming with Javascript(Node.js), C#(UWP)
--->
-
-<!--
- - Test Driven Development with jUnit 
--->
+- Asynchronous Programming with Javascript(Node.js), C#(UWP)
 
 ### __Work Experience__  
 __Software Engineer__ (Samsung SDS) _2013.09 - Present_
