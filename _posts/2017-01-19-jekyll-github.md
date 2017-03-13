@@ -32,7 +32,7 @@ $jekyll new [깃헙 아이디].github.com
 폴더가 생성된 후 로컬에서 확인을 하기 위해서는 다음과 같이 해 주면 됩니다.
 
 ``` bash
-$jekyll serve —watch
+$jekyll serve -—watch
 ```
 
 
