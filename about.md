@@ -10,11 +10,11 @@ Interested in web performance improvement and productivity improvement tool deve
 
 ### __Technical Skills__
 
-- Web Application development with Java (Spring)
-- Front-end development with Javascript (jQuery, ExtJS)
+- Web Server development with Java (Spring), Node.js (Express)
+- Web Client development with Javascript (React, ExtJS, jQuery)
 - Database Management Systems (Oracle, MySQL)
+- Asynchronous Programming with Node.js and C#
 - Version Control with Git, Perforce, SVN
-- Asynchronous Programming with Javascript(Node.js), C#(UWP)
 
 ### __Work Experience__  
 __Software Engineer__ (Samsung SDS) _2013.09 - Present_
