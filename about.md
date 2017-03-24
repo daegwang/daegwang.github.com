@@ -10,12 +10,12 @@ Interested in web performance improvement and productivity improvement tool deve
 
 ### __Technical Skills__
 
-- Web Server development with Java (Spring), Node.js (Express)
+- Web Server development with Java (Spring)
 - Web Client development with Javascript (React, jQuery)
 - Database Management Systems (Oracle, MySQL)
-- Version Control with Git
 
 <!--
+- Version Control with Git
 - Asynchronous Programming with Node.js and C#
 - ES6, React, Webpack, Node.js, Express
 -->
