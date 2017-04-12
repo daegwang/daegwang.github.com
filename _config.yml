@@ -6,10 +6,10 @@
 name:               "Daegwang"
 
 author:
-  github:           daegwang
-  linkedin:         daegwang
-  email:            daegwang.dev@gmail.com
-
+  github:           "daegwang"
+  linkedin:         "daegwang"
+  email:            "daegwang.dev@gmail.com"
+  
 copyright:
   year:             2017
   name:             Daegwang Jang
