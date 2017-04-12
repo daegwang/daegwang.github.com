@@ -26,7 +26,7 @@ __Software Engineer__ (Samsung SDS) _2013.09 - Present_
 
 - Java Web Application Development using Spring Framework   
 - Front-end Web Application Development with HTML, CSS, Javascript (jQuery, ExtJS)
-- Design and Development UWP(Universal Windows Platform) Application with C#
+- Design and Development UWP Application with C#
 - Improve Logging System with Elastic Stack(ElasticSearch, Logstash, Kibana)
 
 ### __Education__  
