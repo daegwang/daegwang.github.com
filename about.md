@@ -27,7 +27,7 @@ __Software Engineer__ (Samsung SDS) _2013.09 - Present_
 - Java Web Application Development using Spring Framework   
 - Front-end Web Application Development with HTML, CSS, Javascript (jQuery, ExtJS)
 - Design and Development UWP Application with C#
-- Improve Logging System with Elastic Stack(ElasticSearch, Logstash, Kibana)
+- Improve Logging System with Elastic Stack(ElasticSearch, Logstash)
 
 ### __Education__  
 Yonsei University. Seoul _2006 - 2013_  
