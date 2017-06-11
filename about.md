@@ -6,7 +6,7 @@ permalink: /about/
 ## Daegwang Jang
 
 Web Developer. 
-Interested in web performance improvement and productivity improvement tool development.
+Interested in improve Application Performance and Development Productivity.
 
 ### __Technical Skills__
 
