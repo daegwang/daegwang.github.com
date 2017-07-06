@@ -6,12 +6,11 @@ permalink: /about/
 ## Daegwang Jang
 
 Web Developer. 
-Interested in improve Application Performance and Development Productivity.
+Interested in Improve Application Performance and Development Productivity.
 
 ### __Technical Skills__
 
-- Web Server development with Java (Spring)
-- Web Application development with Javascript
+- Web Application development with Java(Spring) and Javascript
 - Database Management Systems (Oracle, MySQL)
 - Elastic Stack (Elastic Search, Logstash, Kibana)
 
@@ -22,12 +21,12 @@ Interested in improve Application Performance and Development Productivity.
 -->
 
 ### __Work Experience__  
-__Software Engineer__ (Samsung SDS) _2013.09 - Present_
+__Software Engineer__ (Samsung SDS) _2013.09 - 2017.06_
 
 - Java Web Application Development using Spring Framework   
 - Front-end Web Application Development with HTML, CSS, Javascript (jQuery, ExtJS)
-- Design and Development UWP Application with C#
 - Improve Logging System with Elastic Stack(ElasticSearch, Logstash)
+- Design and Development UWP Application with C#
 
 ### __Education__  
 Yonsei University. Seoul _2006 - 2013_  
