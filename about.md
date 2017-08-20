@@ -23,12 +23,12 @@ Interested in Application Performance and Improving Development Productivity.
 -->
 
 ### __Work Experience__  
-__Software Engineer__ (NAVER) _2017.07 - Present_
+__NAVER__ (Software Engineer) _2017.07 - Present_
 
 - Web Application Development using Spring Boot
 - Natural Language Processing 
-
-__Software Engineer__ (Samsung SDS) _2013.09 - 2017.06_
+  
+__Samsung SDS__ (Software Engineer) _2013.09 - 2017.06_
 
 - Web Application Development using Spring Framework   
 - Front-end Web Application Development with HTML, CSS, Javascript
