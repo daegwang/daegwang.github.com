@@ -26,6 +26,7 @@ Interested in Application Performance and Improving Development Productivity.
 __NAVER__ (Software Engineer) _2017.07 - Present_
 
 - Web Application Development using Spring Boot
+- Front-end Web Application Development with React
 - Natural Language Processing 
   
 __Samsung SDS__ (Software Engineer) _2013.09 - 2017.06_
