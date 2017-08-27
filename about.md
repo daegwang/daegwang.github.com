@@ -13,14 +13,6 @@ Interested in Application Performance and Improving Development Productivity.
 - Web Application Development
 - Database Management Systems
 - Asynchronous Programming
-- Natural Language Processing
-
-<!--
-- Version Control with Git
-- Asynchronous Programming with Node.js and C#
-- ES6, React, Webpack, Node.js, Express
-- Elastic Stack
--->
 
 ### __Work Experience__  
 __NAVER__ (Software Engineer) _2017.07 - Present_
