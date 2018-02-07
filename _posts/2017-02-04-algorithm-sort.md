@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "Sorting Algorithm(Quick, Merge, Bucket, Insertion)"
-description: "정렬 알고리즘(퀵 정렬, 병합 정렬, 버킷 정렬, 삽입 정렬)"
+title: "Sorting Algorithm"
+description: "Quick, Merge, Bucket, Insertion"
 date: 2017-02-04
-tags: [algorithm, sort]
+tags: [algorithm]
 comments: true
 share: true
 ---
