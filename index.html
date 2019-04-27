@@ -1,10 +1,10 @@
 ---
 layout: default
 ---
-
+<!--bundle exec jekyll serve-->
 <header class="header">
   <h1 class="header-title">
-    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}<span>&#39;s blog</span></a>
+    <a href="{{ site.url }}{{ site.baseurl }}">{{ site.name }}<span> Jang</span></a>
   </h1>
   <nav class="header-nav">
     {% for nav in site.nav %}
@@ -19,7 +19,7 @@ layout: default
 
 <div class="list">
 {% if site.posts.size == 0 %}
-  <h2>No post found</h2>
+  <h2></h2>
 {% else %}
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
