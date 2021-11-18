@@ -1,0 +1,62 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Spoqa Han Sans", "Source Sans Pro", Apple SD Gothic Neo,
+    Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
+  font-size: 18px;
+  line-height: 1.6;
+}
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+div {
+  display: block;
+}
+
+a {
+  color: #1b6ec2;
+  text-decoration: none;
+}
+
+h1 {
+  font-size: 2.7em;
+  font-weight: 400;
+  line-height: 1.3em;
+}
+
+.header-title {
+  margin: 50px 0 0 0;
+}
+
+.header-title a {
+  color: #343a40;
+}
+
+.header-title span {
+  color: #adb5bd;
+}
+
+.header-nav a {
+  color: #495057;
+  margin-right: 0.3 rem;
+}
+
+.content-container {
+  max-width: 800px;
+  padding: 3 rem 1 rem;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  text-align: center;
+  font-size: 0.75rem;
+}
