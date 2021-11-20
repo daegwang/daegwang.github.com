@@ -7,8 +7,8 @@
 html {
   font-family: "Spoqa Han Sans", "Source Sans Pro", Apple SD Gothic Neo,
     Nanum Barun Gothic, Nanum Gothic, Verdana, Arial, Dotum, sans-serif;
-  font-size: 18px;
   line-height: 1.6;
+  font-size: 1.1em;
 }
 
 html,
@@ -23,7 +23,7 @@ div {
 }
 
 a {
-  color: #1b6ec2;
+  color: #252422;
   text-decoration: none;
 }
 
@@ -43,9 +43,35 @@ h4 {
   padding: 0;
 }
 
+.logo {
+  float: left;
+  width: 120px;
+  line-height: 0.85em;
+  font-weight: bold;
+  text-align: right;
+  padding-right: 5px;
+  color: #242423;
+  border-right: 6px solid #333533;
+  font-family: Helvetica, Arial, Verdana, "Spoqa Han Sans", "Source Sans Pro",
+    Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Dotum,
+    sans-serif;
+}
+
+.header {
+  height: 80px;
+  padding: 20px 20px 0 20px;
+}
+
+.header-nav {
+  float: left;
+  font-size: 0.85em;
+  padding: 5px 0 0 30px;
+}
+
 .header-title {
-  margin: 50px 0 10px 0;
+  margin: 5px 0 10px 0;
   line-height: 1.5em;
+  color: #252422;
 }
 
 .header-title a {
@@ -58,7 +84,7 @@ h4 {
 
 .header-nav a {
   color: #495057;
-  margin-right: 0.3 rem;
+  margin-right: 1.3rem;
 }
 
 .content-container {
