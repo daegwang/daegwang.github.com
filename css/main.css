@@ -34,7 +34,7 @@ h1 {
 }
 
 h3 {
-  margin: 1em 0 0.8em 0;
+  margin: 0.5em 0 0.8em 0;
 }
 
 p,
@@ -45,16 +45,21 @@ h4 {
 
 .logo {
   float: left;
-  width: 120px;
+  width: 130px;
   line-height: 0.85em;
   font-weight: bold;
   text-align: right;
-  padding-right: 5px;
+  padding-right: 8px;
   color: #242423;
-  border-right: 6px solid #333533;
+  border-right: 7px solid #333533;
+  font-size: 0.9em;
   font-family: Helvetica, Arial, Verdana, "Spoqa Han Sans", "Source Sans Pro",
     Apple SD Gothic Neo, Nanum Barun Gothic, Nanum Gothic, Verdana, Dotum,
     sans-serif;
+}
+
+.pd-t-m {
+  padding-top: 2em;
 }
 
 .header {
@@ -65,7 +70,7 @@ h4 {
 .header-nav {
   float: left;
   font-size: 0.85em;
-  padding: 5px 0 0 30px;
+  padding: 0.2em 0 0 3em;
 }
 
 .header-title {
@@ -94,7 +99,12 @@ h4 {
   margin-right: auto;
 }
 
+.wrap {
+  overflow: auto;
+}
+
 .footer {
+  clear: both;
   text-align: center;
   font-size: 0.75rem;
   margin: 20px 0 20px 0;
@@ -107,6 +117,12 @@ h4 {
   overflow: hidden;
 }
 
+.dg_logo-img-m {
+  height: 120;
+  width: 120px;
+  overflow: hidden;
+}
+
 .dg_logo {
   float: left;
   position: relative;
@@ -115,6 +131,13 @@ h4 {
 .section {
   width: 100%;
   min-height: 80px;
+  margin-bottom: 20px;
+  font-size: 0.9em;
+}
+
+.section-m {
+  width: 100%;
+  min-height: 120px;
   margin-bottom: 20px;
   font-size: 0.9em;
 }
@@ -135,6 +158,34 @@ h4 {
 }
 
 .about_content {
-  margin: 15px 0 0 0;
+  margin: 1em 0 1em 0;
   font-size: 0.9em;
+}
+
+.section_content-m {
+  margin-left: 135px;
+  line-height: 1.4em;
+}
+
+.section_content-m h4 {
+  font-size: 1.3em;
+  padding: 0.2em 0 0.1em 0;
+}
+
+.section_content-m .content {
+  padding: 0.3em 0 0 0;
+}
+
+.section_content-m .content a {
+  color: #0077b6;
+}
+
+.content-container .sc {
+  width: 100%;
+  border: 1px solid #ccc;
+}
+
+.content-container .sc-m {
+  float: left;
+  width: 50%;
 }
