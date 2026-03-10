@@ -1,0 +1,16 @@
+---
+layout: default
+---
+<div>
+  <h1 class="header-title">
+    <p>{{ page.title }}</p>
+  </h1>
+</div>
+{% if page.intro %}
+<div class="blog-intro">
+  {{ page.intro }}
+</div>
+{% endif %}
+<div class="about_content">
+  {{ content }}
+</div>

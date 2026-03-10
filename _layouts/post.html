@@ -1,0 +1,17 @@
+---
+layout: default
+---
+<div>
+  <h1 class="header-title">
+    <p>{{ page.title }}</p>
+  </h1>
+</div>
+<div class="blog-post-meta">{{ page.date | date: "%b %-d, %Y" }}{% if page.tag %} <span class="blog-tag">{{ page.tag }}</span>{% endif %}</div>
+{% if page.hero %}
+<div class="blog-hero">
+  <img src="{{ page.hero }}" alt="{{ page.title }}" />
+</div>
+{% endif %}
+<div class="about_content post-content">
+  {{ content }}
+</div>

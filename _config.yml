@@ -1,0 +1,7 @@
+title: Daegwang Jang
+description: Writing about software, AI tools, and systems I’m building.
+markdown: kramdown
+permalink: /blog/:title/
+collections:
+  pages:
+    output: true
