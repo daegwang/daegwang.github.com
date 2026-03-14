@@ -319,6 +319,14 @@ h4 {
 
 .blog-image img {
   max-width: 560px;
+  border: none;
+  border-radius: 0;
+}
+
+.blog-image-full img {
+  max-width: 100%;
+  border: none;
+  border-radius: 0;
 }
 
 .blog-gallery {
@@ -387,6 +395,13 @@ h4 {
 
 .post-content li {
   margin: 0.3em 0;
+}
+
+.post-content hr {
+  width: 40%;
+  margin: 2em auto;
+  border: none;
+  border-top: 1px solid #ccc;
 }
 
 .post-content h2,
